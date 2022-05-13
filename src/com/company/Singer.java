@@ -24,20 +24,6 @@ public class Singer extends Person {
         System.out.println("And " + getName() + " is the only one in the " + bandName+ " who plays the guitar.");
     }
 
-    @Override
-    public void getLearnMethod() {
-        super.getLearnMethod();
-    }
-
-    @Override
-    public void getWalkMethod() {
-        super.getWalkMethod();
-    }
-
-    @Override
-    public void getEatMethod() {
-        super.getEatMethod();
-    }
 
     @Override
     public String toString() {

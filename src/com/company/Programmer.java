@@ -17,23 +17,9 @@ public class Programmer extends Person {
     }
 
     public void getCoding() {
-        System.out.println(getName() + " work on " + companyName );
+        System.out.println(getName() + " work in " + companyName + " company." );
     }
 
-    @Override
-    public void getLearnMethod() {
-        super.getLearnMethod();
-    }
-
-    @Override
-    public void getWalkMethod() {
-        super.getWalkMethod();
-    }
-
-    @Override
-    public void getEatMethod() {
-        super.getEatMethod();
-    }
 
     @Override
     public String toString() {

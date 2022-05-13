@@ -20,21 +20,7 @@ public class Dancer extends Person {
         System.out.println(getName() + " learn new " + groupName + "'s dance.");
     }
 
-    @Override
-    public void getLearnMethod() {
-        super.getLearnMethod();
-    }
-
-    @Override
-    public void getWalkMethod() {
-        super.getWalkMethod();
-    }
-
-    @Override
-    public void getEatMethod() {
-        super.getEatMethod();
-    }
-
+//
     @Override
     public String toString() {
         return super.toString() +

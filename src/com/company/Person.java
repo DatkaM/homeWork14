@@ -10,6 +10,10 @@ public class Person {
         this.designation = designation;
 
     }
+    public Person(){
+
+    }
+
 
     public String getName() {
         return name;
